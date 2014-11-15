@@ -6,3 +6,7 @@ c++ actor framework
   https://github.com/actor-framework/actor-framework
 scala
 http://www.scala-lang.org/documentation/getting-started.html
+MQTT client
+http://www.eclipse.org/paho/clients/cpp/
+MQTT broker
+  http://mosquitto.org/
