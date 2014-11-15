@@ -1,0 +1,114 @@
+body{
+	background-color: #D1DFE0;
+	font-family: "verdana",sans-serif;
+}
+div#footer{
+	position: absolute;
+	bottom: 20px;
+	left:300px;
+	width: 900px;
+	height: 1px;
+	background-color: #1C343E;
+	font-size: 10px;
+	text-align: right;
+}
+#footer a{
+	position: absolute;
+	left: 200px;
+	font-size: 10px;
+	text-decoration: none;
+	color: #000;
+
+}
+#footer a:hover{
+	color: 
+}
+div#left{
+	position: absolute;
+	height: 275px;
+	width: 200px;
+	top: 170px;
+	left: 0px;
+	border-radius: 7px;
+	background-color: #D1DFE0;
+}
+div#heading{
+	position: absolute;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	left: 0px;
+	top: 20px;
+	font-weight: bold;
+	color: #f9f9f9;
+	font-size: 20px;
+}
+div#navigation{
+	position: absolute;
+	
+	width: 170px;
+	height:250px;
+	top: 25px;
+	left: 0px;
+	border-radius: 7px;
+}
+#navigation ul{
+	position: relative;
+	left: -50px;
+	list-style: none;
+
+}
+#navigation li#home{
+	font-weight: bold;
+	
+}
+
+#navigation a{
+	text-decoration: none;
+	text-align: right;
+	display: block;
+	color:  #1C343E;
+	margin-bottom: 5px;
+	font-size: 25px;
+	border-radius: 7px;
+	width: 170px;
+	text-transform: uppercase;
+
+}
+#navigation a:hover{
+	font-size: 25px;
+	color:#f9f9f9;
+	background-color: #1C343E;
+}
+#home a:hover{
+	color:  #1C343E;
+	background-color: #D1DFE0;
+}
+div#vertical{
+	position: absolute;
+	width: 1px;
+	height: 200px;
+	left: 170px;
+	top: 200px;
+	background-color:  #1C343E;
+}
+#footer a#contact{
+	position: absolute;
+	color: #000;
+	left: 400px;
+	top: 5px;
+}
+#footer a#logout{
+	position: absolute;
+	color: #000;
+	left: 455px;
+	top: 5px;
+}
+div#br{
+	position: absolute;
+	width: 1px;
+	height: 8px;
+	left: 450px;
+	top: 8px;
+	background-color: #1C343E;
+}

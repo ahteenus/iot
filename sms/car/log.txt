@@ -1,0 +1,25 @@
+[ content=80 160, address=tel:94771122336, requestId=1390029520211, applicationId=APP_000001, encoding=0, version=1.0 ]
+[ content=80 160, address=tel:94771122336, requestId=1390029531846, applicationId=APP_000001, encoding=0, version=1.0 ]
+[ content=80 160, address=tel:94771122336, requestId=1390029574145, applicationId=APP_000001, encoding=0, version=1.0 ]
+[ content=80 160, address=tel:94771122336, requestId=1390029921215, applicationId=APP_000001, encoding=0, version=1.0 ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181255, requestId=tel:94771122336, deliveryStatus=Delivered ]
+[ content=, address=tel:94771122336, requestId=1390029945998, applicationId=APP_000001, encoding=0, version=1.0 ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181255, requestId=tel:94771122336, deliveryStatus=Delivered ]
+[ content=skjdksdjks, address=tel:94771122336, requestId=1390029955376, applicationId=APP_000001, encoding=0, version=1.0 ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181256, requestId=tel:94771122336, deliveryStatus=Delivered ]
+[ content=skjdksdjks, address=tel:94771122336, requestId=1390029973473, applicationId=APP_000001, encoding=0, version=1.0 ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181256, requestId=tel:94771122336, deliveryStatus=Delivered ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181305, requestId=tel:94771122336, deliveryStatus=Delivered ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181305, requestId=tel:94771122336, deliveryStatus=Delivered ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181305, requestId=tel:94771122336, deliveryStatus=Delivered ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181327, requestId=tel:94771122336, deliveryStatus=Delivered ]
+Sms delivery report received from SDP : 
+[ destinationAddress=tel:94771122336, timeStamp=1401181327, requestId=tel:94771122336, deliveryStatus=Delivered ]

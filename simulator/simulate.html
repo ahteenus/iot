@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Admin MOS Template</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Copyright" content="arirusmanto.com">
+	<meta name="description" content="Admin MOS Template">
+	<meta name="keywords" content="Admin Page">
+	<meta name="author" content="Ari Rusmanto">
+	<meta name="language" content="Bahasa Indonesia">
+
+	<link rel="shortcut icon" href="stylesheet/img/devil-icon.png"> <!--Pemanggilan gambar favicon-->
+	<link rel="stylesheet" type="text/css" href="/mythings/user/mos-css/mos-style.css"> <!--pemanggilan file css-->
+
+	<script src="jquery-1.8.0.min.js"></script>
+
+
+</head>
+
+
+
+<body>
+	<form id="simulationdata">
+		EPC <input type="text" id="objectepc" value="" class="pendek"> </br>
+		reader : <input type="text" id="reader" value="1" class="pendek"> </br>
+		<input type="button" id="simulate_data" value="simulate readings" class="button" > </br>
+	</form>
+
+	<script type="text/javascript">
+		 $("#simulate_data").click(function(){ 
+            	var Objectepc= $("#objectepc").val();
+            	var readernumber =$("#reader").val();
+            	var d = new Date();
+            	var time= Math.round(d.getTime()/1000);
+            	/*replace simulate.php by ur php */
+				$.post("/mythings/system/controller/reader_process.php", {epc:Objectepc, readerID:readernumber, time:time} ,function(datam,stat){
+					//alert(datam);
+				});
+					/*following code is for reset fields*/
+				$('#simulationdata').each (function(){
+  					this.reset();
+				});
+
+          	});
+
+
+	</script>
+
+	
+
+</body>
+
+
+</html>

@@ -1,0 +1,20 @@
+<?php
+if (file_exists('config.php')) {
+	require_once('config.php');
+}
+require_once(DIR_LOGIN."/login.php");
+sec_session_start();
+// Unset all session values
+$_SESSION = array();
+// get session parameters 
+$params = session_get_cookie_params();
+// Delete the actual cookie.
+setcookie(session_name(), '', time() - 42000, $params["path"], $params["domain"], $params["secure"], $params["httponly"]);
+// Destroy session
+session_destroy();
+
+echo "logout";
+
+//header('Location: http://localhost/mythings/user/');
+
+?>

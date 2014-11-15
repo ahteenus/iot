@@ -1,0 +1,94 @@
+[18-Jan-2014 08:19:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\SampleSmsApp.php on line 35
+[18-Jan-2014 13:34:53 Europe/Berlin] PHP Notice:  Undefined index: username in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 21
+[18-Jan-2014 13:34:53 Europe/Berlin] PHP Notice:  Undefined index: username in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 21
+[18-Jan-2014 13:34:54 Europe/Berlin] PHP Notice:  Undefined index: username in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 21
+[18-Jan-2014 13:34:54 Europe/Berlin] PHP Notice:  Undefined index: username in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 21
+[18-Jan-2014 13:34:54 Europe/Berlin] PHP Notice:  Undefined index: username in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 21
+[18-Jan-2014 13:34:54 Europe/Berlin] PHP Notice:  Undefined index: username in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 21
+[18-Jan-2014 13:41:11 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 47
+[18-Jan-2014 13:41:11 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 47
+[18-Jan-2014 13:41:11 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 47
+[18-Jan-2014 13:41:12 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 47
+[18-Jan-2014 13:41:12 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 47
+[18-Jan-2014 13:41:12 Europe/Berlin] PHP Notice:  Undefined variable: user_id in C:\xampp\htdocs\ideamart_developer_bundle\samples\php-sample-applications\php-sample-applications\samples\sms\notification.php on line 47
+[22-Jan-2014 09:48:39 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\mythings\sms\notification.php on line 17
+[22-Jan-2014 09:54:43 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 09:56:12 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 10:08:16 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 10:14:25 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 10:21:37 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 10:22:18 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 10:23:38 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 10:50:23 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090188l your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 11:01:53 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
+[22-Jan-2014 11:04:45 Europe/Berlin] PHP Fatal error:  Uncaught exception 'SmsException' with message 'Server URL is invalid' in C:\xampp\htdocs\mythings\sms\SmsSender.php:88
+Stack trace:
+#0 C:\xampp\htdocs\mythings\sms\SmsSender.php(76): SmsSender->handleResponse(false)
+#1 C:\xampp\htdocs\mythings\sms\SmsSender.php(58): SmsSender->sendRequest('{"applicationId...')
+#2 C:\xampp\htdocs\mythings\sms\SmsSender.php(29): SmsSender->smsMany('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#3 C:\xampp\htdocs\mythings\sms\notification.php(49): SmsSender->sms('hi 090222m your...', Array, 'password', 'APP_000001', '77000', '1', ':15.75', '0', '1.0', '')
+#4 {main}
+  thrown in C:\xampp\htdocs\mythings\sms\SmsSender.php on line 88
